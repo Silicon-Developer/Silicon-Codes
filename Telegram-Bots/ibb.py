@@ -1,3 +1,7 @@
+#By @Silicon_Bot_Update 
+#Distribute and edit it as your wish but please don't remove credit 😓😓
+#By stealing Credit of Developer you will not become pro so try to give full credit to Developer 🥺🥺🥺
+
 import requests
 import os, asyncio
 from pyrogram import Client, filters
@@ -20,7 +24,10 @@ async def imgbb_upload(bot: Client, update: Message):
 
     text = await update.reply_text("<code>Downloading to My Server ...</code>", disable_web_page_preview=True)
 
-    # Download the media
+#By @Silicon_Bot_Update 
+#Distribute and edit it as your wish but please don't remove credit 😓😓
+#By stealing Credit of Developer you will not become pro so try to give full credit to Developer 🥺🥺🥺
+
     media = await update.reply_to_message.download()
 
     await text.edit_text("<code>Downloading Completed. Now I am Uploading to imgbb ...</code>", disable_web_page_preview=True)
@@ -62,3 +69,7 @@ async def imgbb_upload(bot: Client, update: Message):
             ]
         ])
     )
+
+#By @Silicon_Bot_Update 
+#Distribute and edit it as your wish but please don't remove credit 😓😓
+#By stealing Credit of Developer you will not become pro so try to give full credit to Developer 🥺🥺🥺
